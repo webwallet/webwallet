@@ -1,0 +1,30 @@
+{
+  "name": "webwallet",
+  "version": "1.0.0",
+  "description": "webwallet monorepo",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/webwallet/webwallet.git"
+  },
+  "keywords": [
+    "crypto",
+    "currencies",
+    "transactions"
+  ],
+  "author": "webwallet.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webwallet/webwallet/issues"
+  },
+  "homepage": "https://github.com/webwallet/webwallet#readme"
+}
