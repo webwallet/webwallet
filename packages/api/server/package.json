@@ -1,0 +1,22 @@
+{
+  "name": "@webwallet/server",
+  "version": "1.0.0",
+  "description": "WebWallet API server in Node.js",
+  "main": "lib/server",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/webwallet/server.git"
+  },
+  "keywords": [
+    "webwallet"
+  ],
+  "author": "webwallet.org",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webwallet/server/issues"
+  },
+  "homepage": "https://github.com/webwallet/server#readme"
+}
