@@ -2,14 +2,23 @@
   "name": "webwallet",
   "version": "1.0.0",
   "description": "webwallet monorepo",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "doc": "docs"
   },
+  "dependencies": {
+    "@webwallet/server": "1.0.0"
+  },
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "@types/node": "^13.7.1",
+    "lerna": "^3.20.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.5"
   },
   "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
+    "prod": "lerna run tsc && node ./lib/index.js",
     "test": "jest"
   },
   "repository": {
