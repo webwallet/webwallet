@@ -45,8 +45,10 @@ node_modules/
 jspm_packages/
 packages/*/lib
 
+
 # TypeScript build
 lib
+_
 
 # TypeScript v1 declaration files
 typings/
