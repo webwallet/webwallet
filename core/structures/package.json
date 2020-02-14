@@ -1,0 +1,25 @@
+{
+  "name": "@webwallet/structures",
+  "version": "1.0.0",
+  "description": "Data structures and validation schemas for WebWallet API.",
+  "main": "lib/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/webwallet/structures.git"
+  },
+  "keywords": [
+    "webwallet",
+    "typescript",
+    "joi"
+  ],
+  "author": "webwallet.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webwallet/structures/issues"
+  },
+  "homepage": "https://github.com/webwallet/structures#readme"
+}
