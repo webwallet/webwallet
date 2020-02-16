@@ -1,12 +1,12 @@
 import { Injectable } from '@nestjs/common'
-import { Classes } from '@webwallet/structures'
+import { Transaction } from '@webwallet/structures'
 
 @Injectable()
 export class TransactionService {
   getTransaction({ hash }: {hash: string}): string {
     return `GET /transaction/${hash}`
   }
-  postTransaction({ body }: {body: Classes.PostTransactionBody}): string {
+  postTransaction({ body }: {body: Transaction.RequestBodyClass}): string {
     return `POST /transaction ${body.data}`
   }
 }
