@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/webwallet/structures/issues"
   },
-  "homepage": "https://github.com/webwallet/structures#readme"
+  "homepage": "https://github.com/webwallet/structures#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0"
+  },
+  "devDependencies": {
+    "@types/hapi__joi": "^16.0.10"
+  }
 }

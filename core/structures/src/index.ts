@@ -1,5 +1,7 @@
-import * as Classes from './classes/_index'
+import * as joi from '@hapi/joi'
+import * as Transaction from './transaction'
 
 export {
-  Classes,
+  joi,
+  Transaction
 }
