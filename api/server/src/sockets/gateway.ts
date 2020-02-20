@@ -6,8 +6,8 @@ import {
   WsException,
 } from '@nestjs/websockets'
 import { Server } from 'socket.io'
-import { TransactionService } from '@routes/transaction/service'
-import { JoiValidationPipe } from '@helpers/validation'
+import { TransactionService } from '@/routes/transaction/service'
+import { JoiValidationPipe } from '@/helpers/validation'
 import { Transaction, joi } from '@webwallet/structures'
 import { UsePipes } from '@nestjs/common'
 

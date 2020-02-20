@@ -1,7 +1,7 @@
 import { Controller, Get, Param, Post, Body, UsePipes } from '@nestjs/common'
 import { TransactionService } from './service'
 import { Transaction } from '@webwallet/structures'
-import { JoiValidationPipe } from '@helpers/validation'
+import { JoiValidationPipe } from '@/helpers/validation'
 
 @Controller('/transaction')
 export class TransactionController {
