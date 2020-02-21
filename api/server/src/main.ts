@@ -6,7 +6,7 @@ import { SocketsModule } from './sockets/module'
 @Module({
   imports: [RoutesModule, SocketsModule],
 })
-class RootModule {}
+export class RootModule {}
 
 async function start() {
   const app = await NestFactory.create(RootModule)
