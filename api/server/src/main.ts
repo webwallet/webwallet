@@ -8,9 +8,12 @@ import { SocketsModule } from './sockets/module'
 })
 export class RootModule {}
 
-async function start() {
+export async function start() {
   const app = await NestFactory.create(RootModule)
   await app.listen(3000)
+  return app
 }
 
-start()
+if (require.main === module) {
+  start()
+}
